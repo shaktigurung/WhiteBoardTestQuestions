@@ -18,7 +18,7 @@ const fib = (num) => {
         return num;
     }
   
-    return (fib(num - 1) + fib(num - 2));
+    return console.log(fib(num - 1) + fib(num - 2));
 }
 
 //fibonacci(4);
